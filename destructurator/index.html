@@ -2,14 +2,14 @@
 <html class="no-js" lang="" xmlns="http://www.w3.org/1999/html">
 
 <head>
-  <meta charset="utf-8">
-  <title>Destructurator</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Destructurator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
 
 </head>
 
@@ -17,12 +17,15 @@
 
 <script src="js/main.js"></script>
 
-
-  <textarea id="inputText" rows="5" cols="20">Entrez n'importe quel texte à destructurer et cliquez sur le boutoooon</textarea>
-  <button type="button" onclick="translateIt()">Destructurer !</button>
-  <br>
-  <textarea id="outputText" rows="5" cols="20"></textarea>
-  <button type="button" onclick="copy()">Copier dans le presse papier</button>
+<div id="input" class="container">
+    <textarea id="inputText" rows="5"
+              cols="20">Entrez n'importe quel texte à destructurer et cliquez sur le boutoooon</textarea>
+    <button type="button" onclick="translateIt()">Destructurer !</button>
+</div>
+<div id="output" class="container">
+    <textarea id="outputText" rows="5" cols="20"></textarea>
+    <button type="button" onclick="copy()">Copier dans le presse papier</button>
+</div>
 
 </body>
 
